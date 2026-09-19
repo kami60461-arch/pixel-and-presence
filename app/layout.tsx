@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://pixelandpresence.com"),
+  metadataBase: new URL("https://pixel-and-presence.vercel.app"),
 
   title: {
     default: "Pixel & Presence | Web Design, AI & Automation",
