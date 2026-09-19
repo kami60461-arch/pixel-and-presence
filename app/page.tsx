@@ -228,8 +228,19 @@ export default function Home() {
 
           <div className="hidden items-center gap-7 text-sm font-medium lg:flex">
             <a href="#work" className="transition hover:text-neutral-500">Work</a>
-            <a href="#services" className="transition hover:text-neutral-500">Services</a>
-            <a href="#ai" className="transition hover:text-neutral-500">AI</a>
+<a
+  href="/small-business-web-design"
+  className="transition hover:text-neutral-500"
+>
+  Services
+</a>
+
+<a
+  href="/ai-automation-for-small-businesses"
+  className="transition hover:text-neutral-500"
+>
+  AI
+</a>
             <a href="#automation" className="transition hover:text-neutral-500">Automation</a>
             <a href="#about" className="transition hover:text-neutral-500">About</a>
           </div>
@@ -511,7 +522,7 @@ export default function Home() {
           className="group relative overflow-hidden rounded-[2rem] border border-neutral-200 bg-white p-8 transition duration-300 hover:-translate-y-2 hover:shadow-2xl"
         >
           <div
-            className={`absolute right-0 top-0 h-32 w-32 rounded-full blur-3xl ${
+            className={`absolute right-0 top-0 h-32 w-32 rounded-full fblur-3xl ${
               index % 3 === 0
                 ? "bg-purple-300/30"
                 : index % 3 === 1
