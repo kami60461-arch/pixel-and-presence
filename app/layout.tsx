@@ -70,6 +70,19 @@ export const metadata: Metadata = {
   },
 };
 
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Pixel & Presence",
+  url: "https://pixel-and-presence.vercel.app",
+  logo: "https://pixel-and-presence.vercel.app/logo.png",
+  description:
+    "Modern websites, AI solutions, WhatsApp integrations and business automation for small businesses.",
+  sameAs: [
+    "https://www.instagram.com/pixelandpresence.web/",
+  ],
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -77,7 +90,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full antialiased">
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(organizationSchema),
+          }}
+        />
+        {children}
+      </body>
     </html>
   );
 }
