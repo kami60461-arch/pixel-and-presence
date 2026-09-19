@@ -522,7 +522,7 @@ export default function Home() {
           className="group relative overflow-hidden rounded-[2rem] border border-neutral-200 bg-white p-8 transition duration-300 hover:-translate-y-2 hover:shadow-2xl"
         >
           <div
-            className={`absolute right-0 top-0 h-32 w-32 rounded-full fblur-3xl ${
+            className={`absolute right-0 top-0 h-32 w-32 rounded-full blur-3xl ${
               index % 3 === 0
                 ? "bg-purple-300/30"
                 : index % 3 === 1
