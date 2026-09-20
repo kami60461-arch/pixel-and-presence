@@ -1014,27 +1014,29 @@ export default function Home() {
         </p>
 
         <h2 className="text-4xl font-semibold leading-tight tracking-tight text-[#171717] sm:text-5xl lg:text-6xl">
-          Modern design
+          Web design,
           <br />
-          meets
+          AI & automation
           <br />
           <span className="bg-gradient-to-r from-purple-600 via-blue-600 to-orange-500 bg-clip-text text-transparent">
-            practical technology.
+            built for business.
           </span>
         </h2>
       </div>
 
       <div>
         <p className="text-lg leading-8 text-neutral-600">
-          Pixel & Presence creates modern digital experiences for businesses
-          that want a stronger online presence. We combine thoughtful design,
-          responsive development, AI, messaging, payments, and automation.
+          Pixel & Presence provides modern web design and AI solutions for
+          small businesses. We create professional business websites,
+          landing pages, responsive digital experiences, WhatsApp solutions,
+          online payment experiences, and business automation workflows.
         </p>
 
         <p className="mt-6 text-lg leading-8 text-neutral-600">
-          The goal is simple: build technology that looks professional,
-          communicates clearly, and makes it easier for customers to connect
-          with your business.
+          Our approach combines thoughtful design with practical technology
+          to help businesses build a stronger online presence, communicate
+          clearly with customers, capture enquiries, and simplify repetitive
+          tasks.
         </p>
 
         <div className="mt-9 flex flex-wrap gap-2">
