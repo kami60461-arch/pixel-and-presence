@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+	import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -9,8 +9,8 @@ export const metadata: Metadata = {
     template: "%s | Pixel & Presence",
   },
 
-  description:
-    "Pixel & Presence creates modern websites, AI solutions, WhatsApp integrations and business automation for small businesses.",
+ description:
+  "Pixel & Presence provides modern website design, AI solutions, WhatsApp integrations and business automation for small businesses in the US, UK and beyond.",		
 
   keywords: [
     "web design for small businesses",
@@ -23,6 +23,11 @@ export const metadata: Metadata = {
     "landing page design",
     "Next.js web development",
     "AI solutions for businesses",
+"small business web designer USA",
+"small business web designer UK",
+"website design USA",
+"website design UK",
+"WhatsApp automation for businesses",
   ],
 
   authors: [{ name: "Pixel & Presence" }],
