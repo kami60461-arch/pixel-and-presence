@@ -269,18 +269,19 @@ export default function Home() {
       </div>
 
       <h1 className="text-5xl font-semibold leading-[0.98] tracking-[-0.04em] text-[#171717] sm:text-6xl lg:text-7xl">
-        Beautiful websites.
+        Web Design &amp; AI Automation
         <br />
-        Smart automation.
-        <br />
-        <span className="bg-gradient-to-r from-purple-600 via-blue-600 to-orange-500 bg-clip-text text-transparent">
-          Real growth.
-        </span>
+        for Small Businesses.
       </h1>
 
-      <p className="mt-7 max-w-xl text-lg leading-8 text-neutral-600">
+      <p className="mt-5 text-xl font-semibold tracking-tight text-[#171717]">
+        Beautiful websites. Smart automation. Real growth.
+      </p>
+
+      <p className="mt-5 max-w-xl text-lg leading-8 text-neutral-600">
         We build modern websites, connect your digital tools, and create
-        practical AI-powered solutions that help businesses work smarter.
+        practical AI-powered solutions that help small businesses build a
+        stronger online presence and work smarter.
       </p>
 
       <div className="mt-9 flex flex-wrap gap-4">
@@ -296,6 +297,21 @@ export default function Home() {
           className="rounded-full border border-neutral-300 bg-white/70 px-7 py-4 text-sm font-semibold text-[#171717] transition hover:-translate-y-1 hover:bg-white"
         >
           View Our Work
+        </a>
+      </div>
+
+      <div className="mt-7 flex flex-wrap gap-3">
+        <a
+          href="/small-business-web-design"
+          className="rounded-full border border-purple-200 bg-purple-50 px-5 py-3 text-sm font-semibold text-purple-700 transition hover:-translate-y-0.5 hover:bg-purple-100"
+        >
+          Small Business Web Design →
+        </a>
+        <a
+          href="/ai-automation-for-small-businesses"
+          className="rounded-full border border-blue-200 bg-blue-50 px-5 py-3 text-sm font-semibold text-blue-700 transition hover:-translate-y-0.5 hover:bg-blue-100"
+        >
+          AI Automation for Small Businesses →
         </a>
       </div>
 
