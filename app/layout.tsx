@@ -4,13 +4,17 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://pixel-and-presence.vercel.app"),
 
+  alternates: {
+    canonical: "/",
+  },
+
   title: {
     default: "Pixel & Presence | Web Design, AI & Automation",
     template: "%s | Pixel & Presence",
   },
 
  description:
-  "Pixel & Presence provides modern website design, AI solutions, WhatsApp integrations and business automation for small businesses in the US, UK and beyond.",		
+  "Modern web design, AI automation, WhatsApp solutions and business websites for small businesses. Pixel & Presence helps businesses build a stronger online presence and automate customer workflows.",		
 
   keywords: [
     "web design for small businesses",
